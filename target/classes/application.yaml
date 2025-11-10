@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: weathercacheapi
+
+weather:
+  api:
+    key: ${WEATHER_API_KEY}
+    url: https://api.openweathermap.org/data/2.5/weather
+    timeout: 50000
